@@ -1,0 +1,182 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Navigation */
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+/* Style for #banner section */
+#banner {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+/* Style for .container class */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Style for h1 element */
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Style for p element */
+p {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px 0;
+  color: #666666;
+}
+
+/* Style for #about section */
+#about {
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+
+/* Style for h2 element */
+h2 {
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Style for #projects section */
+#projects {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+/* Style for .project class */
+.project {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+/* Style for h3 element */
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Label */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Input fields */
+input[type=text],
+input[type=email],
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
